@@ -1,0 +1,68 @@
+
+
+body {
+	/*font-family: tahoma,verdana,arial,sans-serif ; */
+	font-family:  tahoma, verdana, sans-serif;
+
+}
+.article .image span , #results .picture {
+	display: block;
+	text-align: center;
+	font-size: 0.9em;
+	margin-bottom: 15px;
+	font-family: "times" , serif;
+
+	
+	
+}
+#results .picture img{
+	display: block;
+	vertical-align: middle; 
+	margin: auto;
+	display:block; 
+}
+#conteudo h3 {
+	color: #111579;
+	border-bottom: 1px solid silver;
+
+}
+a {
+	text-decoration: none;
+	color: #3B5998;
+}
+#menuAutores {
+	display: none;
+}
+a img {
+	border: 0;
+	text-decoration: none;
+	color: #e6e6e6;
+}
+a:hover {
+	text-decoration: underline;
+}
+#menuSecao li, #menuAutores li {
+	list-style-type: none;
+	border: 0
+}
+a img {
+	border: 0;
+}
+
+#listCurriculum img.mini {
+	height: 25px;
+}
+
+#comments,
+#listCurriculum .pessoa,
+h1, h2, h3, h4, #navMenu, address {
+	clear: both
+}
+#navMenu {
+	background-color: #F5FAF5;
+}
+.welcome .nota .minidesc {
+	font-weight: bold;
+	color: #CC6600;
+	margin-bottom: -2px;
+}

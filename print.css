@@ -1,0 +1,27 @@
+#menuAutores, #menuSecao {
+	display: none;
+}
+#menuSecao {
+}
+h1 {
+	display: none
+}
+#google_translate_element {
+	display: none;
+}
+body {
+	font-size: 10pt
+}
+p {
+	text-align: justify;
+}
+#nmb {
+/*.navMenu .bottom*/
+	display: none;
+}
+.socialplugin {
+	display: none;
+}
+#comments {
+	page-break-before: always;
+}

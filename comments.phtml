@@ -1,0 +1,13 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); 
+  js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=295805813770782";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="comments" class="<?php echo $_GET['p'] ?>">
+<h3><img src="images/fb.png" alt="" />&nbsp;Comments</h3>
+<div class="fb-comments" data-href="<?php echo 'http://trabalhosif.host.sk'  . urldecode($_SERVER["REQUEST_URI"])   ?>" data-num-posts="150" data-width="650"></div>
+</div>

@@ -1,0 +1,46 @@
+#menuSecao img {
+	height:0; width:0
+}
+#menuSecao, address, #navMenu{
+	font-size: 0.8em;
+}
+#titulo{
+	background-color: #111579;
+	color:white;
+}
+#titulo a{
+	color:yellow;
+}
+body{
+	/*background-color: #111579;
+	color:white;              */
+	text-align: justify;
+	margin:0;
+	padding: 0 ;
+}
+a{
+  color:blue;
+}
+#homeSlideShow{
+	display: none;
+}
+#listCurriculum img{
+	width: 20px;
+}
+#listCurriculum .pessoa{
+	padding-bottom: 4px;
+}
+.article img{
+	width:100%
+}
+#navMenu{
+	border: 1px solid silver;
+}
+address,h1, h2 {
+	text-align: center;
+}
+#listCurriculum img{
+	float: left;
+}
+
+
