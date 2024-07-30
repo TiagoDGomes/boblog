@@ -100,7 +100,7 @@
 	<![endif]-->
 	<link href="mobile.css" rel="stylesheet" type="text/css" media="handheld" />
 	
-	<script type="text/javascript" src="jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="jquery-1.6.3.min.js"></script>
 
         <?php
         if ($_GET['p'] == '') {
